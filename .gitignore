@@ -1,0 +1,44 @@
+# build / binaries
+build/
+bin/
+*.o
+*.a
+*.so
+
+# logs / temp
+*.log
+*.out
+*.err
+*.tmp
+*.swp
+
+# SU2 typical outputs
+*.csv
+*.dat
+*.vtk
+*.vtu
+*.pvtu
+*.su2
+*.tec
+history.*
+restart.*
+flow.*
+adjoint.*
+surface_flow.*
+solution.*
+output/
+
+# OpenFOAM typical outputs
+[0-9]*/
+processor*/
+postProcessing/
+constant/polyMesh/sets
+*.foam
+
+# Paraview
+*.pvsm
+*.pvd
+
+# OS / editor
+.vscode/
+.DS_Store
