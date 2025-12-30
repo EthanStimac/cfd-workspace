@@ -5,6 +5,9 @@ bin/
 *.a
 *.so
 
+#CFD run directories (never commit)
+runs/**
+
 # logs / temp
 *.log
 *.out
